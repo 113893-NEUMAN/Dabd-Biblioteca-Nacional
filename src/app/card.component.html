@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="card" style="width: 15rem;">
+            <app-imagen-card [urlImagen]="imagenUrl"></app-imagen-card>
+            <div class="card-body">
+                <h3 class="card-title">{{ nombreLibro }}</h3>
+                <p class="card-text">{{ descripcion }}</p>
+                <p class="card-text">{{ categoria }}</p>
+                <p class="card-text">{{ autor }}</p>
+                <p class="card-text">{{ anioPublicacion }}</p>
+                <a href="#" class="btn btn-primary" (click)="sumarAnio()">+1 Anio Publicacion</a>
+                
+            </div>
+            <app-opacidad></app-opacidad>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+.contenedor{
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    background-color: blue;
+}
+h1{
+    color: white;
+}
